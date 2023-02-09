@@ -1,0 +1,73 @@
+.btn_bg {
+  display: block;
+  background-color: #0b7d77;
+  margin-top: 8px;
+  margin-bottom: 16px;
+  border-radius: 4px;
+  padding: 12px 10px;
+  font-weight: 700;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.sign_main_section {
+  margin: 40px 72px;
+  background-color: #cee5e4;
+  border: dashed 4px #0b7d77;
+  text-align: center;
+}
+
+.sign_upload {
+  margin: auto;
+  padding: 86px 440px 100px 440px;
+  border-radius: 2px;
+  .addFile {
+    padding-bottom: 30px;
+  }
+
+  .file_submit {
+    background-color: var(--main-color);
+    border: 0px;
+    margin: 0 auto;
+  }
+
+  //  <input type="file" > 藏起來
+  .file-uploader {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+  }
+  .upload_subtitle {
+    font-size: 14px;
+    color: #096561;
+    font-weight: 700;
+  }
+}
+
+.sign_intro {
+  text-align: center;
+  .sign_intro_subtitle {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 28px;
+  }
+}
+
+.file-name {
+  color: var(--main-color);
+}
+
+.canvas_container {
+  border: 1px solid rgb(128, 128, 128, 0.3);
+  border-radius: 10px;
+  background-color: rgba(134, 134, 134, 0.3);
+}
+
+.upper-canvas {
+  // display: none;
+}

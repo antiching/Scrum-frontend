@@ -1,0 +1,54 @@
+// font
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Georama:ital,wght@0,800;0,900;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500;700;800;900&display=swap');
+//引入bootstrap
+@import '/node_modules/bootstrap/dist/css/bootstrap.min.css';
+
+//reset樣式
+@import './reset.scss';
+
+:root {
+  --text-black: #433333;
+  --white: #fff;
+  --main-color: #f19237;
+  --main-color-light: #f9be86;
+  --bd-color: rgb(68, 60, 60);
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+html {
+  height: 100%;
+  font-size: 16px;
+  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+// -- 去除外框
+input:focus,
+input:valid {
+  outline: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  cursor: pointer;
+}

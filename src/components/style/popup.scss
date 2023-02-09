@@ -1,0 +1,64 @@
+.popup_box {
+  position: fixed;
+  background-color: rgba(206, 229, 228, 0.4);
+  width: 100%;
+  height: 100vh;
+  top: 0px;
+  z-index: 100;
+  .box {
+    position: relative;
+    background-color: #fff;
+    width: 512px;
+    height: 512px;
+    border-radius: 8px;
+    border: 1px solid #e6e9ef;
+    padding: 24px 30px;
+    margin: 0px auto;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .btn_close {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    right: 13px;
+    top: 13px;
+  }
+
+  .canvas_button {
+    width: 102px;
+    padding: 12px 0px;
+    border: 1px solid #c5c7d0;
+    margin: 0px auto;
+    border-radius: 10px;
+  }
+
+  .canvas_button_white {
+    border: 1px solid #0b7d77;
+  }
+
+  .canvas_button_primary {
+    background-color: #0b7d77;
+    border: transparent;
+    color: #fff;
+  }
+  .canvas_select {
+    width: 200px;
+  }
+
+  .canvas {
+    position: relative;
+    border: 1px solid #000;
+    width: 400px;
+  }
+}
+
+//儲存簽名
+.show_img {
+  width: 300px;
+  height: 300px;
+}
+
+.text-gray {
+  color: #676879;
+}
